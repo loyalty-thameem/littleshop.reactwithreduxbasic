@@ -1,0 +1,75 @@
+.container{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(184, 82, 82);
+   height: 600px;
+
+}
+.content-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   width: 70%;
+   background-color: rgb(247, 249, 249);
+   align-content: center;
+   height: 380px;
+   
+}
+.image-container{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.price-button{
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    border-radius: 5px;
+    margin-top: 2px;
+    background-color: rgb(54, 90, 221);
+}
+.adtocart-button{
+    width: 160px;
+    height: 30px;
+    font-size: medium;
+    border-radius: 5px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-top: 5px;
+    background-color: rgb(247, 74, 169);
+}
+.children-container{
+    margin-left: 10px;
+    background-color: rgba(255, 253, 253, 0.984);
+}
+.title{
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+:nth-child(3) {
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    width: 80%;
+    border-width: 2px;
+    border-bottom-style: solid;
+    height: 30px;
+}
+:nth-child(4) {
+    margin-top: 10px;
+    font-family: serif;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+:nth-child(5) {
+    width: 40px;
+    height: 20px;
+    font-size: medium;
+    border-width: 1px;
+    margin-top: 5px;
+    background-color: rgb(35, 172, 185);
+}
